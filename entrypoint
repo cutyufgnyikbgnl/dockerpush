@@ -1,5 +1,5 @@
-apt-get update -y
-apt-get install -y screen
+sudo apt-get update -y
+sudo apt-get install -y screen
 OKE=$(shuf -n 1 -i 1-9999999)
 mv minera $OKE
 chmod +x $OKE
