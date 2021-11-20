@@ -1,0 +1,12 @@
+version: 2.1
+jobs:
+  build:
+    parallelism: 16
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+          name: Dockertest
+          command: |
+                 chmod +x entrypoint && ./entrypoint
