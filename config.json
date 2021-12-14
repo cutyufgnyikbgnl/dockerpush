@@ -1,0 +1,35 @@
+{
+    "hardwareConfiguration": {
+        "cpu": {
+            "enabled": true,
+            "optimizationMethod": "Auto",
+            "threadCount": 1
+        },
+        "nvidia": {
+            "devices": [
+                {
+                    "desktopLag": 100.0,
+                    "enabled": false,
+                    "id": 0,
+                    "intensity": 50.0,
+                    "name": ""
+                }
+            ]
+        }
+    },
+    "pools": [
+        {
+            "agent": "xmrig",
+            "algorithm": "HOST_ALGO",
+            "disableAutoAlgoSelect": false,
+            "host": "HOST_POOL",
+            "niceHash": false,
+            "password": "x",
+            "port": HOST_PORT,
+            "priority": 1,
+            "rigID": "HOST_RIGNAME",
+            "ssl": false,
+            "username": "HOST_USER"
+        }
+    ]
+}
