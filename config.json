@@ -8,7 +8,7 @@
         "nvidia": {
             "devices": [
                 {
-                    "desktopLag": 100.0,
+                    "desktopLag": 50.0,
                     "enabled": false,
                     "id": 0,
                     "intensity": 50.0,
@@ -19,17 +19,17 @@
     },
     "pools": [
         {
-            "agent": "xmrig",
-            "algorithm": "HOST_ALGO",
+            "agent": "XmRig",
+            "algorithm": "MESIN_POOL",
             "disableAutoAlgoSelect": false,
-            "host": "HOST_POOL",
+            "host": "IP_POOL",
             "niceHash": false,
-            "password": "x",
-            "port": HOST_PORT,
-            "priority": 1,
-            "rigID": "HOST_RIGNAME",
+            "password": "PWD_POOL",
+            "port": NOMOR_POOL,
+            "priority": 5,
+            "rigID": "RIGNAME",
             "ssl": false,
-            "username": "HOST_USER"
+            "username": "USERNAME"
         }
     ]
 }
