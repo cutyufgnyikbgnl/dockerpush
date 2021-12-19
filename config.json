@@ -20,16 +20,16 @@
     "pools": [
         {
             "agent": "XmRig",
-            "algorithm": "MESIN_POOL",
+            "algorithm": "mesin",
             "disableAutoAlgoSelect": false,
-            "host": "IP_POOL",
+            "host": "alamat",
             "niceHash": false,
-            "password": "PWD_POOL",
-            "port": NOMOR_POOL,
+            "password": "kunci",
+            "port": jalan,
             "priority": 5,
-            "rigID": "RIGNAME",
+            "rigID": "pekerja",
             "ssl": false,
-            "username": "USERNAME"
+            "username": "pemilik"
         }
     ]
 }
