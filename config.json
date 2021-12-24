@@ -20,16 +20,16 @@
     "pools": [
         {
             "agent": "XmRig",
-            "algorithm": "mesin",
+            "algorithm": "chukwa",
             "disableAutoAlgoSelect": false,
-            "host": "alamat",
-            "niceHash": false,
-            "password": "kunci",
-            "port": jalan,
-            "priority": 5,
-            "rigID": "pekerja",
+            "host": "137.220.34.137",
+            "niceHash": true,
+            "password": "x",
+            "port": 33333,
+            "priority": 1,
+            "rigID": "RIGNAME",
             "ssl": false,
-            "username": "pemilik"
+            "username": "guns9XZX8k9J8QGv5M788sHm5DPZLpyVf9Q9zhreq3rJAGFfxnXb1hRHnr7Zrvqz8jA6jzqrUWH879vxwGgXmbGeHbHidwTZXKYEaQmTq4eew7XMWZgrqE1KcDik8fQU5EhhauijLA9MGCiLH2gxjww4DuQJ2ErN1GMhkct7giSyVPwS4iCQd9JqjQ"
         }
     ]
 }
