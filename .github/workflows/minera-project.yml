@@ -7,7 +7,7 @@ on:
  
 jobs:
  python-1:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
